@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'HangeulNuri-Bold';
+}
+
+.up-bar{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    color:indianred;
+}
+
+.up-bar > section{
+    font-size: 30px;
+}
+
+.menu{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+hr{
+    width:1000px;
+    border: solid 1px indianred;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.icon{
+    margin-top: 10px;
+}
+
+.under-bar{
+    width: 1000px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    background-color: indianred;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.under-bar > section > img{
+    width: 100px;
+}
